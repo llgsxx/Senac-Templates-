@@ -1,11 +1,11 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Corpo da página */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
@@ -17,7 +17,7 @@ body {
   align-items: center;
 }
 
-/* Cabeçalho */
+
 header {
   text-align: center;
   margin-bottom: 10px;
@@ -28,7 +28,7 @@ header h1 {
   color: #007BFF;
 }
 
-/* Navegação */
+
 nav {
   background-color: #007BFF;
   padding: 10px 0;
@@ -50,11 +50,7 @@ nav a {
   font-size: 16px;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
 
-/* Conteúdo principal */
 main {
   width: 100%;
   max-width: 900px;
@@ -64,7 +60,7 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Títulos e parágrafos */
+
 section h3 {
   color: #007BFF;
   margin-top: 25px;
@@ -87,7 +83,6 @@ section ul li {
   font-size: 16px;
 }
 
-/* Imagem */
 figure {
   text-align: center;
   margin-top: 30px;
@@ -99,7 +94,6 @@ figure img {
   border-radius: 6px;
 }
 
-/* Rodapé */
 footer {
   margin-top: 40px;
   text-align: center;
