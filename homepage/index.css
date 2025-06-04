@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Corpo */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
@@ -16,7 +16,7 @@ body {
   align-items: center;
 }
 
-/* Cabeçalho */
+
 header {
   text-align: center;
   margin-bottom: 30px;
@@ -32,7 +32,7 @@ header p {
   font-size: 18px;
 }
 
-/* Área principal */
+
 main {
   width: 100%;
   display: flex;
@@ -47,13 +47,13 @@ section {
   max-width: 1000px;
 }
 
-/* Estilo dos links (cards) */
+
 section a {
   background-color: #ffffff;
   border: 2px solid #007BFF;
   border-radius: 10px;
   padding: 20px;
-  width: 260px;
+  width: 500px;
   text-align: center;
   text-decoration: none;
   color: #333;
@@ -68,18 +68,17 @@ section a:hover {
   transform: translateY(-5px);
 }
 
-/* Título dentro dos links */
+
 section a h2 {
   margin-bottom: 10px;
   font-size: 24px;
 }
 
-/* Texto dentro dos links */
+
 section a p {
   font-size: 15px;
 }
 
-/* Rodapé */
 footer {
   margin-top: 40px;
   text-align: center;
